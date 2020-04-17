@@ -1,0 +1,171 @@
+[Licensing::Module] Successfully connected to LicensingClient on channel: LicenseClient-Stavros
+Entitlement-based licensing initiated
+[LicensingClient] Licenses Updated successfully in LicensingClient
+
+LICENSE SYSTEM [2020416 22:59:47] Next license update check is after 2020-04-17T20:08:01
+
+Built from '2019.3/staging' branch; Version is '2019.3.3f1 (7ceaae5f7503) revision 8186542'; Using compiler version '191627012'
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'en' Physical Memory: 20369 MB
+[Licensing::Module] Serial number assigned to: "F4-6GYK-RH73-RC59-9GWP-XXXX"\nBatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2019.3.3f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/Unity Projects/Apollo DOTSv2
+-logFile
+Library/AssetImportWorker0.log
+-srvPort
+59431
+Successfully changed project path to: E:/Unity Projects/Apollo DOTSv2
+E:/Unity Projects/Apollo DOTSv2
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 53.57 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2019.3.3f1 (7ceaae5f7503)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2019.3.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Unity Projects/Apollo DOTSv2/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 960M (ID=0x139b)
+    Vendor:   
+    VRAM:     4053 MB
+    Driver:   26.21.14.4587
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2019.3.3f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2019.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2019.3.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56672
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.3.3f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.003061 seconds.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 46.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.909 seconds
+Registering precompiled user dll's ...
+Registered in 0.102208 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Unity Projects\Apollo DOTSv2\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 56.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.460 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2451 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.8 MB.
+System memory in use after: 104.8 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2854.
+Total: 2.892300 ms (FindLiveObjects: 0.465900 ms CreateObjectMapping: 0.135600 ms MarkObjects: 2.215900 ms  DeleteObjects: 0.074100 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/SceneDependencyCache/2db09ac2621a2039fc3616f4695ea758.sceneWithBuildSettings
+  artifactKey: Guid(2db09ac2621a2039fc3616f4695ea758) Importer(2089858483,52bed625d08a7023a15481c3fbd73797)
+Start importing Assets/SceneDependencyCache/2db09ac2621a2039fc3616f4695ea758.sceneWithBuildSettings using Guid(2db09ac2621a2039fc3616f4695ea758) Importer(2089858483,52bed625d08a7023a15481c3fbd73797)
+Exception thrown during SubScene import: System.ArgumentNullException: Cannot add dependency on invalid path.
+Parameter name: path
+  at UnityEditor.Experimental.AssetImporters.AssetImportContext.DependsOnSourceAsset (System.String path) [0x0000c] in <9a184ab867bb42c296d20ace04f48df3>:0 
+  at Unity.Scenes.Editor.SubSceneImporter.OnImportAsset (UnityEditor.Experimental.AssetImporters.AssetImportContext ctx) [0x00032] in E:\Unity Projects\Apollo DOTSv2\Library\PackageCache\com.unity.entities@0.5.0-preview.17\Unity.Scenes.Editor\SubSceneImporter.cs:79 
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Unity.Debug:Log(String) (at Library\PackageCache\com.unity.entities@0.5.0-preview.17\Unity.Entities\Stubs\Unity\Debug.cs:17)
+Unity.Scenes.Editor.SubSceneImporter:OnImportAsset(AssetImportContext) (at Library\PackageCache\com.unity.entities@0.5.0-preview.17\Unity.Scenes.Editor\SubSceneImporter.cs:120)
+UnityEditor.Experimental.AssetImporters.ScriptedImporter:GenerateAssetData(AssetImportContext)
+ 
+(Filename: Library/PackageCache/com.unity.entities@0.5.0-preview.17/Unity.Entities/Stubs/Unity/Debug.cs Line: 17)
+
+Done importing asset: 'Assets/SceneDependencyCache/2db09ac2621a2039fc3616f4695ea758.sceneWithBuildSettings' (target hash: 'f21c0db35434e2003bec0bf4326a2ca3') in 0.046467 seconds
+  Import took 0.047966 seconds.
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.3.3f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.003222 seconds.
+Symbol file LoadedFromMemory doesn't match image E:\Unity Projects\Apollo DOTSv2\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 38.15 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.662 seconds
+Registering precompiled user dll's ...
+Registered in 0.104580 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Unity Projects\Apollo DOTSv2\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.608 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.1 MB.
+System memory in use after: 57.3 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2864.
+Total: 3.336700 ms (FindLiveObjects: 0.565800 ms CreateObjectMapping: 0.276200 ms MarkObjects: 2.396600 ms  DeleteObjects: 0.097200 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.3.3f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.003065 seconds.
+Symbol file LoadedFromMemory doesn't match image E:\Unity Projects\Apollo DOTSv2\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 39.92 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.552 seconds
+Registering precompiled user dll's ...
+Registered in 0.092941 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Unity Projects\Apollo DOTSv2\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.556 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.1 MB.
+System memory in use after: 57.3 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2874.
+Total: 3.193300 ms (FindLiveObjects: 0.421000 ms CreateObjectMapping: 0.111400 ms MarkObjects: 2.581400 ms  DeleteObjects: 0.078900 ms)
+
